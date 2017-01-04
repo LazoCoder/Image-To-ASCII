@@ -126,7 +126,7 @@ def print_usage():
         main.py [image] [width]
     Parameters:
         [image]   The image to convert. Supports many formats.
-        [width]   The width of the regions from the image to convert to ascii.
+        [width]   The width of the regions from the image to convert to ASCII.
                   The height is by default the width multiplied by two.
     Example:
         main.py sample/gold_face.jpg 2
