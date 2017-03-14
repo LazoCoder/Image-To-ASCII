@@ -21,5 +21,5 @@ Convert images to ASCII art.
 ```
 
 ## Sample
-![alt-tag] (sample/gold_face.jpg)
-![alt-tag] (sample/gold_face_ascii_screenshot.png)
+![alt-tag](sample/gold_face.jpg)
+![alt-tag](sample/gold_face_ascii_screenshot.png)
