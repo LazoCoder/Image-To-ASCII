@@ -69,8 +69,8 @@ def normalize_char_map():
     # Spread out the values so that the darkest is 0 and lightest is 10,0000.
     global char_map
     temp_map = {}
-    max = 0
-    min = 10000
+    max = float("-inf") #Minimum int
+    min = float("inf")  #Max int
     for val in char_map:
         if val > max:
             max = val
