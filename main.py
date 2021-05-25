@@ -17,7 +17,7 @@ char_map = {}
 
 def char_image(char):
     # Get an image with a char drawn on it.
-    font = ImageFont.truetype("Monaco", 40)
+    font = ImageFont.truetype("Monaco.woff", 40)
     image = Image.new('RGB', (50, 50), (255, 255, 255))
     drawer = ImageDraw.Draw(image)
     drawer.text((0, 0), char, font=font, fill=(0, 0, 0))
@@ -110,7 +110,7 @@ def to_ascii(filename):
     create_char_map(33, 750)
     regions = split_image(image)
     columns = int(image.width / WIDTH_OF_REGION)
-    if len(regions)%columns != 0:
+    if len(regions) % columns != 0:
         columns -= 1
     for i in range(0, len(regions)):
         if i % columns == 0 and i != 0:
